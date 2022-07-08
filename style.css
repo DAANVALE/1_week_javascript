@@ -18,7 +18,14 @@ h2.rojo{
     color: greenyellow;
 }
 
-.boton{
-    width: 100px;
-    height: 20px;
+/*comentarios - aqui se inicia proceso de programacion*/
+.menu{
+    background-color: aqua;
+}
+
+.menu li{
+    font-family: serif;
+    margin: 10px;
+    color: green;
+    display: inline;
 }

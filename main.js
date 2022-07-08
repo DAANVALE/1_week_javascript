@@ -1,20 +1,11 @@
-var nombre = "Daan Valencia";
-var edad = 20;
+function Changed(){
+    let text = document.getElementById("myWeb").innerHTML;
+    document.getElementById("cambio").innerHTML = text;
+}
 
-console.log("Hello world");
-//var alerta = alert("Alerta: que no se te olviden los \' simples \' \n pero tambien puedes usar \"Dobles\"");
+let text = document.getElementById("myWeb").innerHTML
+document.getElementById("cambio").innerHTML = text
 
-document.write("Una forma de imprimir");
+const title = document.getElementById("title")
 
-var imprimir = document.getElementById("print");
-
-imprimir.innerHTML = `What's up!`;
-
-imprimir.innerHTML = `
-    <h2>Hola soy ${nombre} </h2>
-    <h2>Y tengo ${edad} </h2>
-`;
-
-/* function no necesita retornar pero lo hace y 
-retorna lo que sea que uno quiera sin ser declarado, 
-el innerHTML*/
+title.textContent = 'Dom - Accediendo'
